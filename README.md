@@ -364,7 +364,46 @@ It mainly focuses on 4 areas:
 ## Repairing ToolS
 
 
-* ## [**CHERRYTREE**]()
+* ## [**CHERRYTREE**](https://www.kali.org/tools/cherrytree/)
+  CherryTree is a hierarchical note taking application, featuring rich text, syntax highlighting, images handling, hyperlinks, import/export with support for multiple formats, support for multiple languages, and more.
+
+
+* ## [**CUTYCAPT**](https://www.kali.org/tools/cutycapt/)
+  CutyCapt is a small cross-platform command-line utility to capture WebKit’s rendering of a web page into a variety of vector and bitmap formats, including SVG, PDF, PS, PNG, JPEG, TIFF, GIF, and BMP.
+
+
+* ## [**FARADAY START**](https://www.kali.org/tools/python-faraday/)
+  Faraday introduces a new concept (IPE) Integrated Penetration-Test Environment a multiuser Penetration test IDE. Designed for distribution, indexation and analysis of the generated data during the process of a security audit.
+  The main purpose of Faraday is to re-use the available tools in the community to take advantage of them in a multiuser way.
+
+
+* ## [**MALTEGO INSTALLER**](https://www.kali.org/tools/maltego/)
+  Maltego is an open source intelligence and forensics application. It will offer you timous mining and gathering of information as well as the representation of this information in a easy to understand format.
+
+
+* ## [**PIPAL**](https://www.kali.org/tools/pipal/)
+  All this tool does is to give you the stats and the information to help you analyse the passwords. The real work is done by you in interpreting the results.
+
+
+* ## [**RECORDMYDESKTOP**](https://www.kali.org/tools/recordmydesktop/)
+  The application produces an ogg-encapsulated theora-vorbis file. recordMyDesktop tries to be as unobstrusive as possible by proccessing only regions of the screen that have changed
+
+
+
+## Social Engineering Tools
+
+
+* ## [**MALTEGO (INSTALLER**](https://www.kali.org/tools/maltego/)
+  Maltego is an open source intelligence and forensics application. It will offer you timous mining and gathering of information as well as the representation of this information in a easy to understand format.
+
+
+* ## [**MSF PAYLOAD CREATOR**](https://www.kali.org/tools/msfpc/)
+  A quick way to generate various “basic” Meterpreter payloads using msfvenom which is part of the Metasploit framework.
+
+
+* ## [**SOCIAL ENGINEERING TOOLKIT (ROOT)**](https://www.kali.org/tools/set/)
+  The Social-Engineer Toolkit (SET) is an open-source Python-driven tool aimed at penetration testing around Social-Engineering.
+
 
 
 

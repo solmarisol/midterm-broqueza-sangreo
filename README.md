@@ -143,33 +143,228 @@ Legion tool is a super-extensible and semi-automated network penetration testing
     Crunch is a wordlist generator where you can specify a standard character set or any set of characters to be used in generating the wordlists. The wordlists are created through combination and permutation of a set of characters. You can determine the amount of characters and list size.
 
 
+* ## [**HASHCAT**](https://www.kali.org/tools/hashcat/)
+  Hashcat supports five unique modes of attack for over 300 highly-optimized hashing algorithms. hashcat currently supports CPUs, GPUs, and other hardware accelerators on Linux, and has facilities to help enable distributed password cracking.
+
+
+* ## [**HYDRA**](https://www.kali.org/tools/hydra/)
+  Hydra is a parallelized login cracker which supports numerous protocols to attack. It is very fast and flexible, and new modules are easy to add.
+
+
+* ## [**JOHN**](https://www.kali.org/tools/john/)
+  John the Ripper is a tool designed to help systems administrators to find weak (easy to guess or crack through brute force) passwords, and even automatically mail users warning them about it, if it is desired.
+
+
+* ## [**MEDUSA**](https://www.kali.org/tools/medusa/)
+  Medusa is intended to be a speedy, massively parallel, modular, login brute-forcer. The goal is to support as many services which allow remote authentication as possible. The author considers following items as some of the key features of this application: * Thread-based parallel testing. Brute-force testing can be performed against multiple hosts, users or passwords concurrently. * Flexible user input. Target information (host/user/password) can be specified in a variety of ways. For example, each item can be either a single entry or a file containing multiple entries. Additionally, a combination file format allows the user to refine their target listing. * Modular design. Each service module exists as an independent .mod file. This means that no modifications are necessary to the core application in order to extend the supported list of services for brute-forcing.
+
+
+* ## [**NCRACK**](https://www.kali.org/tools/ncrack/)
+  Ncrack is a high-speed network authentication cracking tool. It was built to help companies secure their networks by proactively testing all their hosts and networking devices for poor passwords. Security professionals also rely on Ncrack when auditing their clients. Ncrack was designed using a modular approach, a command-line syntax similar to Nmap and a dynamic engine that can adapt its behaviour based on network feedback. It allows for rapid, yet reliable large-scale auditing of multiple hosts.
+
+
+* ## [**OPHCRACK**](https://www.kali.org/tools/ophcrack/)
+  Ophcrack is a Windows password cracker based on a time-memory trade-off using rainbow tables. This is a new variant of Hellman’s original trade-off, with better performance. It recovers 99.9% of alphanumeric passwords in seconds.
+
+
+* ## [**WORDLISTS**](https://www.geeksforgeeks.org/create-custom-wordlists-using-crunch-in-kali-linux/)
+  This collection of different combinations of characters is called a wordlist. And in order to crack a password or a hash, we need to have a good wordlist that could break the password. So to do so, we have a tool in kali Linux called crunch.
+
+
+## Wireless Attacks
+
+
+* ## [**AIRCRACK-NG**](https://www.geeksforgeeks.org/kali-linux-aircrack-ng/)
+  Aircrack-ng is a tool that comes pre-installed in Kali Linux and is used for wifi network security and hacking. Aircrack is an all in one packet sniffer, WEP and WPA/WPA2 cracker, analyzing tool and a hash capturing tool. It is a tool used for wifi hacking. It helps in capturing the package and reading the hashes out of them and even cracking those hashes by various attacks like dictionary attacks. It supports almost all the latest wireless interfaces. 
+It mainly focuses on 4 areas:
+  * Monitoring: Captures cap, packet, or hash files.
+  * Attacking: Performs deauthentication or creates fake access points
+  * Testing: Checking the wifi cards or driver capabilities
+  * Cracking: Various security standards like WEP or WPA PSK.
 
 
 
+* ## [**FERN WIFI CRACKER (ROOT)**](https://www.kali.org/tools/fern-wifi-cracker/)
+  This package contains a Wireless security auditing and attack software program written using the Python Programming Language and the Python Qt GUI library, the program is able to crack and recover WEP/WPA/WPS keys and also run other network based attacks on wireless or ethernet based networks.
+
+
+* ## [**KISMET**](https://www.kali.org/tools/kismet/)
+  Kismet is a wireless network and device detector, sniffer, wardriving tool, and WIDS (wireless intrusion detection) framework. Kismet works with Wi-Fi interfaces, Bluetooth interfaces, some SDR (software defined radio) hardware like the RTLSDR, and other specialized capture hardware.
+
+
+* ## [**PIXIEWPS**](https://www.kali.org/tools/pixiewps/)
+  Pixiewps is a tool written in C used to bruteforce offline the WPS pin exploiting the low or non-existing entropy of some APs (pixie dust attack). It is meant for educational purposes only.
+
+
+* ## [**REAVER**](https://www.kali.org/tools/reaver/)
+  Reaver performs a brute force attack against an access point’s Wi-Fi Protected Setup pin number. Once the WPS pin is found, the WPA PSK can be recovered and alternately the AP’s wireless settings can be reconfigured. This package also provides the Wash executable, an utility for identifying WPS enabled access points. See documentation in /usr/share/doc/reaver/README.WASH.
 
 
 
+* ## [**WIFITE**](https://www.kali.org/tools/wifite/)
+  Wifite is a tool to audit WEP or WPA encrypted wireless networks. It uses aircrack-ng, pyrit, reaver, tshark tools to perform the audit.
+
+
+## Reverse Engineering
+
+
+* ## [**NASM SHELL**](https://www.kali.org/tools/nasm/)
+  Netwide Assembler. NASM will currently output flat-form binary files, a.out, COFF and ELF Unix object files, and Microsoft 16-bit DOS and Win32 object files.
+  Also included is NDISASM, a prototype x86 binary-file disassembler which uses the same instruction table as NASM.
+  NASM is released under the GNU Lesser General Public License (LGPL).
+
+
+* ## [**CLANG**](https://www.kali.org/tools/llvm-defaults/)
+  Clang project is a C, C++, Objective C and Objective C++ front-end for the LLVM compiler. Its goal is to offer a replacement to the GNU Compiler Collection (GCC).
 
 
 
+* ## [**CLANG++**](https://www.kali.org/tools/llvm-defaults/)
+   Clang project is a C, C++, Objective C and Objective C++ front-end for the LLVM compiler. Its goal is to offer a replacement to the GNU Compiler Collection (GCC).
+
+* ## [**RADARE2**](https://www.kali.org/tools/radare2/)
+  It is composed by an hexadecimal editor (radare) with a wrapped IO layer supporting multiple backends for local/remote files, debugger (OS X, BSD, Linux, W32), stream analyzer, assembler/disassembler (rasm) for x86, ARM, PPC, m68k, Java, MSIL, SPARC, code analysis modules and scripting facilities. A bindiffer named radiff, base converter (rax), shellcode development helper (rasc), a binary information extractor supporting PE, mach0, ELF, class, etc. named rabin, and a block-based hash utility called rahash.
+
+
+## Exploitation Tools
+
+
+* ## [**CRACKMAPEXEC**](https://www.kali.org/tools/crackmapexec/)
+  This package is a swiss army knife for pentesting Windows/Active Directory environments.
+  From enumerating logged on users and spidering SMB shares to executing psexec style attacks, auto-injecting Mimikatz/Shellcode/DLL’s into memory using Powershell, dumping the NTDS.dit and more.
+  The biggest improvements over the above tools are:
+    * Pure Python script, no external tools required
+    * Fully concurrent threading
+    * Uses ONLY native WinAPI calls for discovering sessions, users, dumping SAM hashes etc…
+    * Opsec safe (no binaries are uploaded to dump clear-text credentials, inject shellcode etc…
+
+
+* ## [**METASPLOIT FRAMEWORK**](https://www.kali.org/tools/metasploit-framework/)
+  One of the best sources of information on using the Metasploit Framework is Metasploit Unleashed, a free online course created by OffSec. Metasploit Unleashed guides you from the absolute basics of Metasploit all the way through to advanced topics.
 
 
 
+* ## [**MSF PAYLOAD CREATOR**](https://www.kali.org/tools/msfpc/)
+  A quick way to generate various “basic” Meterpreter payloads using msfvenom which is part of the Metasploit framework.
 
 
+* ## [**SEARCHSPLOIT**](https://www.kali.org/tools/exploitdb/)
+  Searchable archive from The Exploit Database. (https://www.exploit-db.com/)
 
 
+* ## [**SOCIAL ENGINEERING TOOLKIT (ROOT)**](https://www.kali.org/tools/set/)
+  The Social-Engineer Toolkit (SET) is an open-source Python-driven tool aimed at penetration testing around Social-Engineering.
 
 
+* ## [**SQLMAP**](https://www.kali.org/tools/sqlmap/)
+  sqlmap goal is to detect and take advantage of SQL injection vulnerabilities in web applications. Once it detects one or more SQL injections on the target host, the user can choose among a variety of options to perform an extensive back-end database management system fingerprint, retrieve DBMS session user and database, enumerate users, password hashes, privileges, databases, dump entire or user’s specific DBMS tables/columns, run his own SQL statement, read specific files on the file system and more.
 
 
+## Sniffing & Spoofing
 
 
+* ## [**ETTERCAP-GRAPHICAL**](https://www.kali.org/tools/ettercap/)
+  Ettercap supports active and passive dissection of many protocols (even encrypted ones) and includes many feature for network and host analysis.
 
 
+* ## [**MACCHANGER**](https://www.kali.org/tools/macchanger/)
+  GNU MAC Changer is an utility that makes the maniputation of MAC addresses of network interfaces easier. MAC addresses are unique identifiers on networks, they only need to be unique, they can be changed on most network hardware. MAC addresses have started to be abused by unscrupulous marketing firms, government agencies, and others to provide an easy way to track a computer across multiple networks. By changing the MAC address regularly, this kind of tracking can be thwarted, or at least made a lot more difficult.
 
 
+* ## [**MINICOM**](https://www.kali.org/tools/minicom/)
+  Minicom is a clone of the MS-DOS “Telix” communication program. It emulates ANSI and VT102 terminals, has a dialing directory and auto zmodem download.
 
+
+* ## [**MITMPROXY**](https://www.kali.org/tools/mitmproxy/)
+  mitmproxy is an interactive man-in-the-middle proxy for HTTP and HTTPS. It provides a console interface that allows traffic flows to be inspected and edited on the fly.
+
+
+* ## [**NETSNIFF-NG**](https://www.kali.org/tools/netsniff-ng/)
+  netsniff-ng is a high performance Linux network sniffer for packet inspection. It can be used for protocol analysis, reverse engineering or network debugging. The gain of performance is reached by ‘zero-copy’ mechanisms, so that the kernel does not need to copy packets from kernelspace to userspace.
+
+
+* ## [**RESPONDER**](https://www.kali.org/tools/responder/)
+  This package contains Responder/MultiRelay, an LLMNR, NBT-NS and MDNS poisoner. It will answer to specific NBT-NS (NetBIOS Name Service) queries based on their name suffix (see: http://support.microsoft.com/kb/163409). By default, the tool will only answer to File Server Service request, which is for SMB.
+
+
+* ## [**SCAPY**](https://www.kali.org/tools/scapy/)
+  Scapy is a powerful interactive packet manipulation tool, packet generator, network scanner, network discovery, packet sniffer, etc. It can for the moment replace hping, 85% of nmap, arpspoof, arp-sk, arping, tcpdump, tethereal, p0f.
+
+
+* ## [**TCPDUMP**](https://www.kali.org/tools/tcpdump/)
+  This program allows you to dump the traffic on a network. tcpdump is able to examine IPv4, ICMPv4, IPv6, ICMPv6, UDP, TCP, SNMP, AFS BGP, RIP, PIM, DVMRP, IGMP, SMB, OSPF, NFS and many other packet types.
+
+
+* ## [**WIRESHARK**](https://www.kali.org/tools/wireshark/)
+  Wireshark is a network “sniffer” - a tool that captures and analyzes packets off the wire.
+
+
+## Post Exploitation
+
+
+* ## [**EVIL-WINRM**](https://www.kali.org/tools/evil-winrm/)
+  WinRM (Windows Remote Management) is the Microsoft implementation of WS-Management Protocol. A standard SOAP based protocol that allows hardware and operating systems from different vendors to interoperate. Microsoft included it in their Operating Systems in order to make life easier to system administrators.
+
+
+* ## [**EXE2HEX**](https://www.kali.org/tools/exe2hexbat/)
+  A Python script to convert a Windows PE executable file to a batch file and vice versa.
+
+
+* ## [**IMPACKET**](https://www.kali.org/tools/impacket/)
+  Impacket is a collection of Python3 classes focused on providing access to network packets. Impacket allows Python3 developers to craft and decode network packets in simple and consistent manner. It includes support for low-level protocols such as IP, UDP and TCP, as well as higher-level protocols such as NMB and SMB.
+
+
+* ## [**MIMIKATZ**](https://www.kali.org/tools/mimikatz/)
+  Mimikatz uses admin rights on Windows to display passwords of currently logged in users in plaintext.
+
+
+* ## [**NETCAT**](https://www.kali.org/tools/netcat/)
+  A simple Unix utility which reads and writes data across network connections using TCP or UDP protocol. It is designed to be a reliable “back-end” tool that can be used directly or easily driven by other programs and scripts. At the same time it is a feature-rich network debugging and exploration tool, since it can create almost any kind of connection you would need and has several interesting built-in capabilities.
+
+
+* ## [**POWERSHELL EMPIRE**](https://www.kali.org/tools/powershell-empire/)
+  This package contains a post-exploitation framework that includes a pure-PowerShell2.0 Windows agent, and a pure Python Linux/OS X agent. It is the merge of the previous PowerShell Empire and Python EmPyre projects. The framework offers cryptologically-secure communications and a flexible architecture. On the PowerShell side, Empire implements the ability to run PowerShell agents without needing powershell.exe, rapidly deployable post-exploitation modules ranging from key loggers to Mimikatz, and adaptable communications to evade network detection, all wrapped up in a usability-focused framework.
+
+
+* ## [**POWERSPLOIT**](https://www.kali.org/tools/powersploit/)
+  PowerSploit is a series of Microsoft PowerShell scripts that can be used in post-exploitation scenarios during authorized penetration tests.
+
+
+* ## [**PROXYCHAINS4**](https://dranolia.medium.com/understanding-proxychains4-conf-anonsurf-in-kali-linux-46471260e499)
+  Proxychains is a powerful tool that enables users to run any application through a proxy server. It is particularly useful for maintaining anonymity and bypassing network restrictions. In Kali Linux, a popular penetration testing distribution, Proxychains is commonly used for concealing the identity of the user during security assessments.
+
+
+* ## [**STARKILLER**](https://www.kali.org/tools/starkiller/)
+  This package contains a Frontend for Powershell Empire. It is an Electron application written in VueJS.
+
+
+* ## [**WEEVELY**](https://www.kali.org/tools/weevely/)
+  Weevely is a stealth PHP web shell that simulate telnet-like connection. It is an essential tool for web application post exploitation, and can be used as stealth backdoor or as a web shell to manage legit web accounts, even free hosted ones.
+
+
+## Forensics
+
+
+* ## [**AIUTOPSY (ROOT)**](https://www.kali.org/tools/autopsy/)
+  The Autopsy Forensic Browser is a graphical interface to the command line digital forensic analysis tools in The Sleuth Kit. Together, The Sleuth Kit and Autopsy provide many of the same features as commercial digital forensics tools for the analysis of Windows and UNIX file systems (NTFS, FAT, FFS, EXT2FS, and EXT3FS).
+
+
+* ## [**BINWALK**](https://www.kali.org/tools/binwalk/)
+  Binwalk is a tool for searching a given binary image for embedded files and executable code. Specifically, it is designed for identifying files and code embedded inside of firmware images. Binwalk uses the libmagic library, so it is compatible with magic signatures created for the Unix file utility.
+
+
+* ## [**BULK_EXTRACTOR**](https://www.kali.org/tools/bulk-extractor/)
+  bulk_extractor is a C++ program that scans a disk image, a file, or a directory of files and extracts useful information without parsing the file system or file system structures. The results are stored in feature files that can be easily inspected, parsed, or processed with automated tools. bulk_extractor also creates histograms of features that it finds, as features that are more common tend to be more important.
+
+
+* ## [**HASHDEEP**](https://www.kali.org/tools/hashdeep/)
+  hashdeep is a set of tools to compute MD5, SHA1, SHA256, tiger and whirlpool hashsums of arbitrary number of files recursively.
+
+
+## Repairing ToolS
+
+
+* ## [**CHERRYTREE**]()
 
 
 

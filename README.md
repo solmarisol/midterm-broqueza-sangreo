@@ -7,6 +7,9 @@ means gathering different kinds of information about the target. It is basically
 
 * ### [**AMASS**](https://www.kali.org/tools/amass/)
   is a tool to help information security professionals perform network mapping of attack surfaces and perform external asset discovery. Amass uses open-source data collection and active identification techniques to do this. This tool focuses on discovering and removing DNS, HTTP and SSL/TLS data. It should be noted that Amass provides several integrations with various API services such as the Security Trails API. It also scrapes the internet’s cache of forgotten data using various web archiving engines.
+  
+[Video Tutorial](https://www.youtube.com/watch?v=Pv4fGBZWyqY)
+
 
 # COMMAND EXAMPLE: 
 ```bash

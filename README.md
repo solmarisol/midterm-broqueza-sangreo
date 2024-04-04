@@ -1,4 +1,4 @@
-# midterm-broqueza-sangreo
+# Midterm-broqueza-sangreo
 
 by [Althea Irish Sangreo](https://www.facebook.com/altheairish.sangreo) and [Marisol Broqueza](https://www.facebook.com/marisol.broqueza)
 
@@ -11,7 +11,7 @@ means gathering different kinds of information about the target. It is basically
 * [Video Tutorial](https://www.youtube.com/watch?v=Pv4fGBZWyqY)
 
 
-# COMMAND EXAMPLE: 
+## COMMAND EXAMPLE: 
 ```bash
 amass enum -d example.com
 ```
@@ -21,7 +21,7 @@ amass enum -d example.com
 * [Video Tutorial](https://www.youtube.com/watch?v=wII1w5BolcM)
 
 
-# COMMAND EXAMPLE: 
+## COMMAND EXAMPLE: 
 ```bash
 dmitry -iwnp -t 7 host.net
 ```

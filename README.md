@@ -533,7 +533,7 @@ It mainly focuses on 4 areas:
 ## Social Engineering Tools
 
 
-* ## [**MALTEGO (INSTALLER**](https://www.kali.org/tools/maltego/)
+* ## [**MALTEGO (INSTALLER)**](https://www.kali.org/tools/maltego/)
   Maltego is an open source intelligence and forensics application. It will offer you timous mining and gathering of information as well as the representation of this information in a easy to understand format.
 
 * [Video Tutorial](https://www.youtube.com/watch?v=JgSI-hlX870)

@@ -174,7 +174,7 @@ Legion tool is a super-extensible and semi-automated network penetration testing
 
 
 
-* ## [**CEWL**](https://www.kali.org/tools/cewl/#:~:text=CeWL%20(Custom%20Word%20List%20generator,addresses%20found%20in%20mailto%20links.))
+* ## [**CEWL**](https://www.kali.org/tools/cewl/#:~:text=CeWL%20)
   CeWL (Custom Word List generator) is a ruby app which spiders a given URL, up to a specified depth, and returns a list of words which can then be used for password crackers such as John the Ripper. Optionally, CeWL can follow external links. CeWL can also create a list of email addresses found in mailto links. These email addresses can be used as usernames in brute force actions.
 
 * [Video Tutorial](https://www.youtube.com/watch?v=5VLEemE1LZ8)

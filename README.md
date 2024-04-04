@@ -339,7 +339,7 @@ It mainly focuses on 4 areas:
 * ## [**SQLMAP**](https://www.kali.org/tools/sqlmap/)
   sqlmap goal is to detect and take advantage of SQL injection vulnerabilities in web applications. Once it detects one or more SQL injections on the target host, the user can choose among a variety of options to perform an extensive back-end database management system fingerprint, retrieve DBMS session user and database, enumerate users, password hashes, privileges, databases, dump entire or user’s specific DBMS tables/columns, run his own SQL statement, read specific files on the file system and more.
 
-* [Video Tutorial]()
+* [Video Tutorial](https://www.youtube.com/watch?v=o3zUnihOHcM&t=16s)
 
 
 ## Sniffing & Spoofing
